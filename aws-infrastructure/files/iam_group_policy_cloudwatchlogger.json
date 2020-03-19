@@ -1,0 +1,29 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "cloudwatch:getMetricData",
+        "cloudwatch:listMetrics",
+        "logs:cancelExportTask",
+        "logs:createExportTask",
+        "logs:createLogGroup",
+        "logs:createLogStream",
+        "logs:describeExportTasks",
+        "logs:describeLogGroups",
+        "logs:describeLogStreams",
+        "logs:describeMetricFilters",
+        "logs:describeSubscriptionFilters",
+        "logs:filterLogEvents",
+        "logs:getLogEvents",
+        "logs:putLogEvents",
+        "logs:putMetricFilter",
+        "logs:putRetentionPolicy",
+        "logs:putSubscriptionFilter",
+        "logs:testMetricFilter"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
